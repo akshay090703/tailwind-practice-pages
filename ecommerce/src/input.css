@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list-style {
+  @apply list-none py-0 px-5 relative;
+}
+
+.list-link-style {
+  @apply text-sm font-semibold text-[#1a1a1a] hover:text-[#088178] hover:content-none active:text-[#088178] active:content-none;
+}
+
+.h1-style {
+  @apply text-[#088178] text-[50px] leading-[64px];
+}
+
+.h2-style {
+  @apply text-[46px] leading-[54px] text-[#222];
+}
+
+.h4-style {
+  @apply pb-4 text-[20px] text-[#222];
+}
+
+.h6-style {
+  @apply font-bold text-[12px];
+}
+
+.p-style {
+  @apply text-base text-[#465b52] mt-[15px] mb-[20px] mx-0;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30days Shop</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .hover-underline::after {
+            content: '';
+            display: block;
+            width: 35%;
+            height: 2px;
+            background: transparent;
+            transition: width 0.3s ease, background-color 0.3s ease;
+            margin: 0 auto;
+            position: absolute;
+            bottom: -2px;
+            left: 25%;
+        }
+
+        .hover-underline:hover::after {
+            background: #088178;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <header>
+        <div
+            class="flex items-center justify-between bg-[#e3e6f3] py-5 px-20 shadow-md z-[999] fixed top-0 left-0 right-0">
+            <div class="">
+                <a href="#" class=""><img src="../assets/logo.svg" alt="logo" class="w-[60px] h-[50px]"></a>
+            </div>
+            <div class="flex items-center justify-center">
+                <nav>
+                    <ul class="flex">
+                        <li class="list-style hover-underline duration-[0.2s] ease-linear"><a href="#"
+                                class="list-link-style ">Home</a></li>
+                        <li class="list-style hover-underline duration-[0.2s] ease-linear"><a href="#"
+                                class="list-link-style">Shop</a></li>
+                        <li class="list-style hover-underline duration-[0.2s] ease-linear"><a href="#"
+                                class="list-link-style">Blog</a></li>
+                        <li class="list-style hover-underline duration-[0.2s] ease-linear"><a href="#"
+                                class="list-link-style">About</a></li>
+                        <li class="list-style hover-underline duration-[0.2s] ease-linear"><a href="#"
+                                class="list-link-style">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="">
+                    <a href="#" class="text-[#1a1a1a] pl-5 duration-[0.3s] ease-linear hover:text-[#088178]"><i
+                            class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="h-[100vh] w-[100%] bg-cover flex justify-center items-center py-0 pl-20">
+            <div class="">
+                <h4 class="h4-style">Trade-in-offer</h4>
+                <h2 class="h2-style">Super value deals</h2>
+                <h1 class="h1-style">On all Products</h1>
+                <button
+                    class=" mt-4 bg-gradient-to-r from-[#e3e6f3] to-[#b7c1d7] w-[260px] h-[60px] border-0 text-xl font-bold cursor-pointer text-[#088178] py-[14px] px-[65px] rounded-xl hover:scale-[1.05] duration-[0.3s] ease-in-out">Shop
+                    now</button>
+                <p class="italic pl-6 p-style">* save more coupons & up to 70% off!</p>
+            </div>
+            <div class="">
+                <img src="../assets/hero.svg" alt="hero image" class="min-h-[100vh] min-w-[100%] pl-16 overflow-hidden">
+            </div>
+        </section>
+
+        <section></section>
+    </main>
+</body>
+
+</html>
