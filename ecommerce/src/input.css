@@ -29,3 +29,15 @@
 .p-style {
   @apply text-base text-[#465b52] mt-[15px] mb-[20px] mx-0;
 }
+
+.feature-style {
+  @apply w-[180px] text-center py-[25px] px-[15px] shadow-sm shadow-shadow-color border border-[#cce7d0] mx-0 my-[15px] transition-shadow hover:shadow-lg hover:shadow-on-hover-shadow;
+}
+
+.feature-img {
+  @apply w-full mb-[10px];
+}
+
+.feature-h6 {
+  @apply inline-block px-[8px] pt-[9px] pb-[6px] leading-[10px] text-base rounded text-[#088178] bg-[#fddde4];
+}
