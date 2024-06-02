@@ -41,3 +41,55 @@
 .feature-h6 {
   @apply inline-block px-[8px] pt-[9px] pb-[6px] leading-[10px] text-base rounded text-[#088178] bg-[#fddde4];
 }
+
+.prod-card {
+  @apply w-[280px] border border-[#ebebeb] p-[13px] mb-[30px] rounded-3xl relative shadow-md shadow-on-card-shadow transition-shadow duration-[0.2s] hover:shadow-xl hover:shadow-on-card-hover;
+}
+
+.prod-img {
+  @apply w-full rounded-3xl;
+}
+
+.prod-span {
+  @apply text-[#969696] font-medium leading-7;
+}
+
+.prod-h4 {
+  @apply text-lg text-card-font;
+}
+
+.card-stars {
+  @apply text-[#e6ae2c] px-0 py-[6px];
+}
+
+.banner-text {
+  @apply text-[#eaebf0];
+}
+
+.lower-banner-text {
+  @apply text-lower-banner-txt;
+}
+
+.big-banner {
+  @apply min-w-[48%] m-4 h-[300px] flex flex-col items-start justify-center p-5 bg-cover;
+}
+
+.big-banner-btn {
+  @apply mt-5 py-3 px-5 text-base font-medium bg-transparent text-lower-banner-txt border border-lower-banner-txt cursor-pointer  transition-all duration-300 ease-linear hover:bg-[#088178] hover:border-[#088178];
+}
+
+.small-banner {
+  @apply min-w-[370px] h-[200px] m-4 flex flex-col items-start justify-center p-[25px] bg-cover;
+}
+
+.small-banner-h5 {
+  @apply text-[#771818];
+}
+
+.footer-a {
+  @apply text-footer-text hover:text-[#088178];
+}
+
+.footer-p {
+  @apply text-footer-text;
+}
